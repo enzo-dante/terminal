@@ -12,11 +12,13 @@
 - :e [file]
     - open specific file 
 
-- u
-    - undo change
+- u = undo change
 
-- i
-    - enter insert mode 
+- control + r = redo
+
+- i = enter insert mode 
+
+:set nu! = show/hide line number
 
 # movement
 
@@ -57,7 +59,11 @@
 
 - cc = remove line and enter insert mode 
 
-- dt{character} = delete up that character
+- dt{character} = delete from current to character
+
+- ct{character} = change from current to character
+
+- f/F{character} = jump to character/previous character
 
 # search and replace text
 
