@@ -87,6 +87,8 @@ dt{character} = delete from current to character
 ct{character} = change from current to character
 
 f/F{character} = jump to character/previous character
+- ; = jump to next instance of character
+- , = jump to previous instance of character
 
 # search and replace text
 
