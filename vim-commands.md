@@ -22,6 +22,10 @@ i = enter insert mode
 
 # movement
 
+ctrl + o = move backword in command chain
+
+ctrl + i = move forward in command chain
+
 (normal mode) j = down / h = left / l = right / k = up
 
 I = insert at start of line
@@ -48,7 +52,7 @@ a = insert at cursor positin
 
 shift + $ = go to end of line
 
-shift + {} = jump up/down between paragraphs
+shift + { / shift + } = jump up/down between paragraphs
 
 ctrl + u = up half page
 
@@ -56,13 +60,9 @@ ctrl + d = down half page
 
 ctrl + c = normal mode
 
-ctrl + o = move backword in command chain
-
-ctrl + i = move forward in command chain
-
 [line_number] + shift + g = jump to specific line
 
-cw = delete highlight and enter insert
+cw = delete current word and enter insert
 
 # editing
 
