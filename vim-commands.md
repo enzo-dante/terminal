@@ -23,26 +23,41 @@ i = enter insert mode
 # movement
 
 (normal mode) j = down / h = left / l = right / k = up
+
 I = insert at start of line
+
 A = insert at end of line
+
 gg = top of file
+
 shift + g = bottom of file
+
 w = start at next word
+
 e = end of next word
+
 b = start of previous word
+
 o = insert on line below
+
 shift + o = insert on line above
+
 a = insert at cursor positin
+
 0 = insert a beginning of the line
+
 shift + $ = go to end of line
 
 shift + {} = jump up/down between paragraphs
 
 ctrl + u = up half page
+
 ctrl + d = down half page
+
 ctrl + c = normal mode
 
 ctrl + o = move backword in command chain
+
 ctrl + i = move forward in command chain
 
 [line_number] + shift + g = jump to specific line
