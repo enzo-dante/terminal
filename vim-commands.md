@@ -1,4 +1,4 @@
-# file management
+d# file management
 
 :q!
     - force quit w/o saving
@@ -54,10 +54,15 @@ cw = delete highlight and enter insert
 y$ = copy only line text
 
 shift + v = copies highlighted section
+
 p = paste copied highlighted section
+
 dd = delete line
+
 d = delete highlighted
+
 c = remove and insert mode
+
 . = repeat last command
 
 cc = remove line and enter insert mode
