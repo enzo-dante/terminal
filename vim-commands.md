@@ -52,6 +52,7 @@ cw = delete highlight and enter insert
 # editing
 
 y$ = copy only line text
+
 shift + v = copies highlighted section
 p = paste copied highlighted section
 dd = delete line
