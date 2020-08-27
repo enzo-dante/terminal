@@ -23,6 +23,8 @@ i = enter insert mode
 # movement
 
 (normal mode) j = down / h = left / l = right / k = up
+I = insert at start of line
+A = insert at end of line
 gg = top of file
 shift + g = bottom of file
 w = start at next word
@@ -32,7 +34,7 @@ o = insert on line below
 shift + o = insert on line above
 a = insert at cursor positin
 0 = insert a beginning of the line
-shift + $ = insert at end of line
+shift + $ = go to end of line
 
 shift + {} = jump up/down between paragraphs
 
@@ -49,7 +51,7 @@ cw = delete highlight and enter insert
 
 # editing
 
-yy = copy text
+y$ = copy only line text
 shift + v = copies highlighted section
 p = paste copied highlighted section
 dd = delete line
