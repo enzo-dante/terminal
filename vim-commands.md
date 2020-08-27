@@ -66,7 +66,9 @@ cw = delete current word and enter insert
 
 # editing
 
-y$ = copy only line text
+y$ = copy only line text/ cursor to end of line
+
+yy = copy entire line and with enter space
 
 shift + v = copies highlighted section
 
