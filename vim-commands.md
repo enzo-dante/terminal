@@ -1,8 +1,8 @@
 # file management
 cmd + /
-    - find cursor
+- find cursor
 :q!
-    - force quit w/o saving
+- force quit w/o saving
 
 :wq
     - save file & quit
