@@ -1,5 +1,6 @@
-d# file management
-
+# file management
+cmd + /
+    - find cursor
 :q!
     - force quit w/o saving
 
