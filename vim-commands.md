@@ -67,6 +67,12 @@ cw = delete current word and enter insert
 
 # editing
 
+f/F{character} = jump to character/previous character
+- ; = jump to next instance of character
+- , = jump to previous instance of character
+
+ct{character} = change from current to character
+
 y$ = copy only line text/ cursor to end of line
 
 yy = copy entire line and with enter space
@@ -86,12 +92,6 @@ c = remove and insert mode
 cc = remove line and enter insert mode
 
 dt{character} = delete from current to character
-
-ct{character} = change from current to character
-
-f/F{character} = jump to character/previous character
-- ; = jump to next instance of character
-- , = jump to previous instance of character
 
 # search and replace text
 
