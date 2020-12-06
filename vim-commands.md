@@ -1,17 +1,18 @@
 # file management
 cmd + /
 - find cursor
+
 :q!
 - force quit w/o saving
 
 :wq
-    - save file & quit
+- save file & quit
 
 :w [file] / :w
-   -  save specific file / save current
+-  save specific file / save current
 
 :e [file]
-   -  open specific file
+-  open specific file
 
 u = undo change
 
