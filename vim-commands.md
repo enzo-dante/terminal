@@ -68,6 +68,20 @@ cw = delete current word and enter insert
 
 # editing
 
+delete all the target characters vertically
+- put your cursor on the target character, 
+- press ctrl + v
+- go down until the last commented line
+- press x
+
+commenting a block of text
+- press Esc (to leave editing or other mode)
+- hit ctrl+v (visual block mode)
+- use the ↑/↓ arrow keys to select lines you want
+- Shift+i (capital I)
+- insert the text you want
+- press Esc
+
 f/F{character} = jump to character/previous character
 - ; = jump to next instance of character
 - , = jump to previous instance of character
